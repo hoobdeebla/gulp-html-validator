@@ -27,7 +27,9 @@
   "keywords": [
     "gulp",
     "gulpplugin",
-    "gulp-plugin"
+    "html-validator",
+    "validate",
+    "validator"
   ],
   "licenses": [
     {

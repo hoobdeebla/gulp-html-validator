@@ -1,0 +1,38 @@
+{
+  "name": "gulp-html-validator",
+  "description": "Validate html with w3.org",
+  "version": "0.0.1",
+  "homepage": "http://github.com/hoobdeebla/gulp-html-validator",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/hoobdeebla/gulp-html-validator.git"
+  },
+  "author": "Adam Schay <adamschay@gmail.com> (http://hoobdeebla.github.io)",
+  "main": "./index.js",
+  "dependencies": {
+    "event-stream": "*",
+    "html-validator": "0.0.7"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "gulp-util": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">= 0.9.0"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "gulp-plugin"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/hoobdeebla/gulp-html-validator/raw/master/LICENSE"
+    }
+  ]
+}

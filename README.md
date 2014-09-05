@@ -5,7 +5,7 @@
 > Validate html using [w3.org](http://validator.w3.org/nu/)
 
 <table>
-<tr> 
+<tr>
 <td>Package</td><td>gulp-html-validator</td>
 </tr>
 <tr>
@@ -33,6 +33,8 @@ npm install gulp-html-validator --save
 
 
 ```javascript
+var gulp = require('gulp');
+    htmlv = require('html-validator');
 
 // Default
 gulp.task('valid', function () {

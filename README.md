@@ -34,7 +34,7 @@ npm install gulp-html-validator --save
 
 ```javascript
 var gulp = require('gulp');
-    htmlv = require('html-validator');
+    htmlv = require('gulp-html-validator');
 
 // Default
 gulp.task('valid', function () {

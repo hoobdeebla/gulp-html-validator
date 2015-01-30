@@ -10,7 +10,7 @@
   "author": "Adam Schay <adamschay@gmail.com> (http://hoobdeebla.github.io)",
   "main": "./index.js",
   "dependencies": {
-    "event-stream": "*",
+    "event-stream": "^3.2.1",
     "html-validator": "0.0.7"
   },
   "devDependencies": {

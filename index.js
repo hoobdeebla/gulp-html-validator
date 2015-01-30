@@ -9,7 +9,7 @@ module.exports = function(options) {
 
   function modifyContents(file, cb) {
     if (file.isNull()) return cb(null, file); // pass along
-    if (file.isStream()) return cb(new Error("htmlv: Streaming not supported")); // pass error if streaming is not supported
+    if (file.isStream()) return cb(new Error('htmlv: Streaming not supported')); // pass error if streaming is not supported
 
     options.data = file.contents.toString('utf8');
 

@@ -8,6 +8,9 @@
     "url": "http://github.com/hoobdeebla/gulp-html-validator.git"
   },
   "author": "Adam Schay <adamschay@gmail.com> (http://hoobdeebla.github.io)",
+  "contributors": [
+    "Steve Lacy <me@slacy.me> (http://slacy.me/)"
+  ],
   "main": "./index.js",
   "dependencies": {
     "event-stream": "^3.2.1",

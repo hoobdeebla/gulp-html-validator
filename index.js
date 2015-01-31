@@ -5,7 +5,6 @@ var htmlv = require('html-validator');
 module.exports = function(options) {
 
   if (!options) options = {};
-  if (!options.format) options.format = 'json';
 
   function modifyContents(file, cb) {
     if (file.isNull()) return cb(null, file); // pass along

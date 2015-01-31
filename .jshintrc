@@ -3,6 +3,7 @@
   "camelcase" : true,
   "eqeqeq"    : true,
   "immed"     : true,
+  "quotmark"  : "single",
 
   "latedef"   : true,
   "newcap"    : true,

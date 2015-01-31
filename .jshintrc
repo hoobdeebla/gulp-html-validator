@@ -1,18 +1,18 @@
 {
-  "bitwise": true,
-  "camelcase": true,
-  "eqeqeq": true,
-  "immed": true,
+  "bitwise"   : true,
+  "camelcase" : true,
+  "eqeqeq"    : true,
+  "immed"     : true,
 
-  "latedef": true,
-  "newcap": true,
-  "noarg": true,
-  "freeze": true,
+  "latedef"   : true,
+  "newcap"    : true,
+  "noarg"     : true,
+  "freeze"    : true,
 
-  "regexp": false,
-  "undef": true,
-  "unused": false,
-  "trailing": true,
+  "regexp"    : false,
+  "undef"     : true,
+  "unused"    : false,
+  "trailing"  : true,
 
   "asi"       : false,
   "boss"      : false,
@@ -20,6 +20,6 @@
   "expr"      : true,
   "regexdash" : false,
   "smarttabs" : false,
-  "node": true,
-  "mocha": true
+  "node"      : true,
+  "mocha"     : true
 }

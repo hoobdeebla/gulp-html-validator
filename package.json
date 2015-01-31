@@ -14,7 +14,7 @@
   "main": "./index.js",
   "dependencies": {
     "event-stream": "^3.2.1",
-    "html-validator": "0.0.7"
+    "html-validator": "^0.0.8"
   },
   "devDependencies": {
     "mocha": "*",

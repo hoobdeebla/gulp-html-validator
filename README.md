@@ -1,6 +1,8 @@
-#gulp-html-validator
+# gulp-html-validator
 [![Build Status](https://travis-ci.org/hoobdeebla/gulp-html-validator.png?branch=master)](https://travis-ci.org/hoobdeebla/gulp-html-validator)
 [![NPM version](https://badge.fury.io/js/gulp-html-validator.png)](http://badge.fury.io/js/gulp-html-validator)
+
+## DEPRECATED: Use the official [`gulp-html`](https://github.com/validator/gulp-html) package instead.
 
 > Validate html using [w3.org](http://validator.w3.org/nu/)
 
@@ -29,7 +31,7 @@
 ```
 npm install gulp-html-validator --save
 ```
-##Example
+## Example
 
 
 ```javascript
@@ -52,7 +54,7 @@ gulp.task('invalid', function () {
 
 ```
 
-####You can view more examples in the [example folder.](https://github.com/hoobdeebla/gulp-html-validator/tree/master/examples)
+#### You can view more examples in the [example folder.](https://github.com/hoobdeebla/gulp-html-validator/tree/master/examples)
 
 
 
